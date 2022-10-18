@@ -36,6 +36,20 @@ header {
   margin-bottom: -115px;
 }
 
+.main-about {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-bottom: 17px;
+    margin-top: -35px;
+    margin-bottom: -115px;
+    gap: 13px;
+  }
+
 .main-sub-title {
   font-family: "Lato", sans-serif;
   font-size: 23px;
@@ -44,6 +58,14 @@ header {
   padding-block: 1px;
   margin: 0;
 }
+.main-about-sub-title {
+    font-family: "Lato", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: rgb(236, 82, 66);
+    padding-block: 1px;
+    margin: 0;
+  }
 
 .main-title {
   font-family: "Lato", sans-serif;
@@ -53,6 +75,15 @@ header {
   color: rgb(236, 82, 66);
   margin: 0;
 }
+.main-about-title {
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(236, 82, 66);
+    margin: 0;
+  }
 
 .main-decription {
   background-color: rgb(247, 247, 247);
@@ -66,6 +97,60 @@ header {
   font-size: 14px;
   line-height: 23px;
 }
+.main-about-decription {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 85%;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+    color: rgb(111, 112, 116);
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 23px;
+  }
+
+  .main-about-desc-mid {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 85%;
+    padding-inline: 20px;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    color: rgb(111, 112, 116);
+    font-size: 14px;
+    text-align: center;
+    line-height: 23px;
+  }
+
+  .main-about-info {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    color: rgb(111, 112, 116);
+    text-align: center;
+    margin-top: 15px;
+    line-height: 23px;
+  }
+  .email a {
+    color: #272a31
+  }
+
+  .my-logo {
+    width: 90%;
+  }
+
+  .img-container {
+    width: 90%;
+    border: 1px solid rgb(198, 207, 198);
+    padding: 10px;
+    height: 110px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  
 
 .schedule {
   font-family: "Lato", sans-serif;
@@ -97,7 +182,18 @@ header {
   padding-inline: 15px;
   padding-bottom: 9%;
 }
+
 .main-speakers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 11px;
+    padding-inline: 15px;
+    background:rgb(255, 255, 255) ;
+    border-bottom: 2px solid rgb(111, 112, 116);
+  }
+
+  .main-speakers-event {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -114,6 +210,7 @@ header {
   padding-top: 19px;
   margin-bottom: 0;
 }
+
 .speakers-title {
     font-family: "Lato", sans-serif;
     font-weight: 510;
@@ -123,16 +220,45 @@ header {
     margin-bottom: 0;
   }
 
-.program-title-hr {
-  height: 1px;
-  width: 43px;
-  background-color: rgb(236, 82, 66);
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 25PX;
-  
-}
+  .speakers-title-footer {
+    font-family: "Lato", sans-serif;
+    font-weight: 510;
+    color: #fff;
+    text-align: center;
+    padding-top: 19px;
+    margin-bottom: 0;
+  }
+
+  .program-title-hr {
+    height: 1px;
+    width: 43px;
+    background-color: rgb(236, 82, 66);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25PX;
+    
+  }
+
+  .main-speakers-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 11px;
+    padding-inline: 15px;
+    background:#272a31 ;
+    margin-top: 40px;
+  }
+
+  .program-title-hr-mid {
+    height: 1px;
+    width: 43px;
+    background-color: rgb(236, 82, 66);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
 
 .event-card {
 display: flex;
@@ -246,4 +372,12 @@ transition: all 0.25s ease;
     text-decoration: none;
     border: 0;
     margin-top: 15px;
+}
+
+.clients {
+    display: flex;
+}
+
+.client-logo {
+    width: 25%;
 }
