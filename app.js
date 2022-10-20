@@ -32,12 +32,6 @@ const speakers = [
     featured_image: 'images/speaker2.png',
   },
   {
-    name: 'Jake Jonathan',
-    occupation: 'Professor at Oxford University',
-    description: 'Focusing on a collaborative and approach in a networked environment',
-    featured_image: 'images/speaker2.png',
-  },
-  {
     name: 'Alex Stephano',
     occupation: 'Professor at Toronto University',
     description: 'Focusing on a collaborative and approach in a networked environment',
@@ -77,4 +71,4 @@ const cards = speakers.map((speaker) => (
     </div>`
 )).join('');
 
-// speakerCards.innerHTML = cards;
+speakerCards.innerHTML = cards;
