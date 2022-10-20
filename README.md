@@ -4,13 +4,18 @@
 
 >Second HTML/CSS project about portfolio with mobile first approach.
 
+## Design
+
+- I appreciate work done by Cindy Shin's design on [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) as the creater of original mockup design.
+
 
 ## Built With
 
 - HTML/CSS/Javascript
 - LInters
 
-
+## Live Demo
+[Live Demo Link](https://abdallahmalima.github.io/capstone-project-1)
 ## Getting Started
 
 **Follow below steps to get the project run on your computer**
@@ -45,10 +50,4 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
