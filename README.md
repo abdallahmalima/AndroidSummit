@@ -15,7 +15,7 @@
 - LInters
 
 ## Live Demo
-[Live Demo Link](https://abdallahmalima.github.io/capstone-project-1)
+[Live Demo Link](https://abdallahmalima.github.io/AndroidSummit/)
 ## Getting Started
 
 **Follow below steps to get the project run on your computer**
